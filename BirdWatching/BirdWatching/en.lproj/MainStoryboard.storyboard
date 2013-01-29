@@ -51,6 +51,9 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="xni-PT-G3N" kind="push" id="yLo-UT-W0d"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
@@ -268,7 +271,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="birdLocationInput" destination="CIk-SI-P9v" id="GDS-2r-283"/>
                         <outlet property="birdNameInput" destination="Qdv-t2-QIq" id="6Tb-pS-4A2"/>
                         <outlet property="locationInPut" destination="CIk-SI-P9v" id="cMy-mf-Wvn"/>
                     </connections>
@@ -332,4 +334,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="yLo-UT-W0d"/>
+    </inferredMetricsTieBreakers>
 </document>
